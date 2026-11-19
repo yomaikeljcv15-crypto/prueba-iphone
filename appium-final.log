@@ -1,0 +1,400 @@
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_THREAD_SANITIZER=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_TREAT_WARNINGS_AS_ERRORS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_6_0=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_CONCISE_MAGIC_FILE=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_DEPRECATE_APPLICATION_MAIN=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_DISABLE_OUTWARD_ACTOR_ISOLATION=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_DYNAMIC_ACTOR_ISOLATION=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_EXISTENTIAL_ANY=No
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_FORWARD_TRAILING_CLOSURES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_GLOBAL_ACTOR_ISOLATED_TYPES_USABILITY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_GLOBAL_CONCURRENCY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_IMPLICIT_OPEN_EXISTENTIALS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_IMPORT_OBJC_FORWARD_DECLS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_INFER_ISOLATED_CONFORMANCES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_INFER_SENDABLE_FROM_CAPTURES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_INTERNAL_IMPORTS_BY_DEFAULT=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_ISOLATED_DEFAULT_VALUES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_NONFROZEN_ENUM_EXHAUSTIVITY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_NONISOLATED_NONSENDING_BY_DEFAULT=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_UPCOMING_FEATURE_REGION_BASED_ISOLATION=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_USE_PARALLEL_WHOLE_MODULE_OPTIMIZATION=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_USE_PARALLEL_WMO_TARGETS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_VALIDATE_CLANG_MODULES_ONCE_PER_BUILD_SESSION=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_VERSION=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_VERSION_INVALID=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_WARNINGS_AS_ERRORS_GROUPS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_WARNINGS_AS_WARNINGS_GROUPS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SWIFT_WHOLE_MODULE_OPTIMIZATION=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_EXEC=swift-symbolgraph-extract
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_MODULE_CACHE_PATH=/Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_MODULE_NAME=WebDriverAgentRunner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_OUTPUT_BASE=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build/symbol-graph
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_OUTPUT_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build/symbol-graph/swift/undefined_arch-apple-ios26.5-simulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_SDK=iphonesimulator26.5
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_SEARCH_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_SWIFT_VERSION=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_GRAPH_EXTRACTOR_TARGET_TRIPLE=undefined_arch-apple-ios26.5-simulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMBOL_HEADER=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYMROOT=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_APPS_DIR=/Applications
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEMOS_DIR=/Applications/Extras
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode_26.6.app/Contents/Developer/Applications
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode_26.6.app/Contents/Developer/usr/bin
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_DEMOS_DIR="/Applications/Xcode_26.6.app/Contents/Developer/Applications/Utilities/Built Examples"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_DIR=/Applications/Xcode_26.6.app/Contents/Developer
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_DOC_DIR="/Applications/Xcode_26.6.app/Contents/Developer/ADC Reference Library"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_EXECUTABLES_DIR=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR="/Applications/Xcode_26.6.app/Contents/Developer/Applications/Graphics Tools"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_JAVA_TOOLS_DIR="/Applications/Xcode_26.6.app/Contents/Developer/Applications/Java Tools"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR="/Applications/Xcode_26.6.app/Contents/Developer/Applications/Performance Tools"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_RELEASENOTES_DIR="/Applications/Xcode_26.6.app/Contents/Developer/ADC Reference Library/releasenotes"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode_26.6.app/Contents/Developer/Tools
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_TOOLS_DOC_DIR="/Applications/Xcode_26.6.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR="/Applications/Xcode_26.6.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode_26.6.app/Contents/Developer/usr
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode_26.6.app/Contents/Developer/Applications/Utilities
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DEXT_INSTALL_PATH=/System/Library/DriverExtensions
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_EXTENSIONS_FOLDER_PATH=WebDriverAgentRunner.xctest/SystemExtensions
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_NO=WebDriverAgentRunner.xctest/Library/SystemExtensions
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_EXTENSIONS_FOLDER_PATH_SHALLOW_BUNDLE_YES=WebDriverAgentRunner.xctest/SystemExtensions
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_FRAMEWORK_SEARCH_PATHS="  /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks iphonesimulator26.5/Developer/Library/Frameworks"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_HEADER_SEARCH_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_KEXT_INSTALL_PATH=/System/Library/Extensions
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_LIBRARY_DIR=/System/Library
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SYSTEM_LIBRARY_EXECUTABLES_DIR=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export ShallowBundle=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SigningCert=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export SkipEmbeddedFrameworksValidation=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_APPLICATION_EXTENSION_API_ONLY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_DEMANGLE=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_DYLIB_ALLOWABLE_CLIENTS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_DYLIB_COMPATIBILITY_VERSION=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_DYLIB_CURRENT_VERSION=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_DYLIB_INSTALL_NAME=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EMIT_PROFILING_SYMBOLS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_ENABLE_MODULES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_ENABLE_PROJECT_HEADERS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_ENABLE_VERIFICATION_MODE=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXCLUDE_PRIVATE_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXCLUDE_PROJECT_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXCLUDE_PUBLIC_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXEC=tapi
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_ENABLE_MODULES=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_ENABLE_OBJC_ARC=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_MODULE_CACHE_PATH=/Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_OUTPUT_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build/symbol-graph/clang/undefined_arch-apple-ios26.5-simulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_SDKDB_OUTPUT_PATH=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build/symbol-graph/clang/undefined_arch-apple-ios26.5-simulator/WebDriverAgentRunner.sdkdb
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_SEARCH_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_SYSTEM_ROOT=iphonesimulator26.5
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRACT_API_TARGET_TRIPLE=undefined_arch-apple-ios26.5-simulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRA_PRIVATE_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRA_PROJECT_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_EXTRA_PUBLIC_HEADERS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_FRAMEWORK_SEARCH_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_HEADER_SEARCH_PATHS="iphonesimulator26.5/usr/include/libxml2 /Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/Modules"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_LANGUAGE=objective-c
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_LANGUAGE_STANDARD=compiler-default
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_LIBRARY_SEARCH_PATHS="  /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_MODULES_VALIDATE_SYSTEM_HEADERS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_MODULE_CACHE_PATH=/Users/runner/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_PREPROCESSOR_DEFINITIONS="DEBUG=1  "
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_PRODUCT_TYPE=com.apple.product-type.bundle.ui-testing
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_READ_DSYM=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_REEXPORTED_FRAMEWORK_INSTALL_NAMES=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_REEXPORTED_FRAMEWORK_NAMES=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_REEXPORTED_LIBRARY_INSTALL_NAMES=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_REEXPORTED_LIBRARY_NAMES=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_REEXPORTED_LIBRARY_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_RUNPATH_SEARCH_PATHS=" @loader_path/Frameworks @executable_path/Frameworks @loader_path/Frameworks /Developer/Library/Frameworks /Developer/Library/PrivateFrameworks /System/Developer/Library/PrivateFrameworks /System/Developer/Library/Frameworks"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_SHARED_CACHE_ELIGIBLE=Automatic
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_SYSTEM_FRAMEWORK_SEARCH_PATHS="  /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks iphonesimulator26.5/Developer/Library/Frameworks"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_SYSTEM_HEADER_SEARCH_PATHS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_TARGET_TRIPLE_ARCHS="arm64 x86_64"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_USE_SRCROOT=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_VERIFY_AGAINST=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TAPI_VERIFY_MODE=Pedantic
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGETED_DEVICE_FAMILY=1,2
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGETNAME=WebDriverAgentRunner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_BUILD_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app//PlugIns
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_BUILD_SUBPATH=/WebDriverAgentRunner-Runner.app//PlugIns
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_DEVICE_IDENTIFIER=CDC7077E-2206-4FEC-B03A-52EB15B2CAD4
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_DEVICE_MODEL=iPhone18,1
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_DEVICE_OS_VERSION=26.5
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_DEVICE_PLATFORM_NAME=iphonesimulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_NAME=WebDriverAgentRunner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TARGET_TEMP_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEMP_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEMP_FILES_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEMP_FILE_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEMP_ROOT=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEMP_SANDBOX_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/TemporaryTaskSandboxes
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TESTING_FRAMEWORK_MODULE_ALIAS_FLAGS="-module-alias Testing=_Testing_Unavailable"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEST_FRAMEWORK_SEARCH_PATHS=" /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks iphonesimulator26.5/Developer/Library/Frameworks"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEST_HOST=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEST_LIBRARY_SEARCH_PATHS=" /Applications/Xcode_26.6.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEXTURE_ATLAS_ENABLE_WARNINGS=Yes
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEXTURE_ATLAS_FORMAT=RGBA8888_PNG
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TEXTURE_ATLAS_MAXIMUM_SIZE=2048x2048
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TMPDIR=/var/folders/q2/p1t6rgxj5fj32g1dc7dmd49r0000gn/T/
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TOOLCHAINS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TOOLCHAIN_DIR=/var/run/com.apple.security.cryptexd/mnt/com.apple.MobileAsset.MetalToolchain-v17.6.109.0.Rdyqfe/Metal.xctoolchain
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TREAT_MISSING_BASELINES_AS_TEST_FAILURES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TREAT_MISSING_SCRIPT_PHASE_OUTPUTS_AS_ERRORS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export TVOS_DEPLOYMENT_TARGET=15.0
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UDID=CDC7077E-2206-4FEC-B03A-52EB15B2CAD4
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UID=501
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNEXPORTED_SYMBOLS_FILE=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNINSTALLED_PRODUCTS_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/UninstalledProducts
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNLOCALIZED_RESOURCES_FOLDER_PATH=WebDriverAgentRunner.xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_NO=WebDriverAgentRunner.xctest/Resources
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNLOCALIZED_RESOURCES_FOLDER_PATH_SHALLOW_BUNDLE_YES=WebDriverAgentRunner.xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UNSTRIPPED_PRODUCT=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export UPGRADE_TIMESTAMP=1795063741240
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USER=runner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USER_APPS_DIR=/Users/runner/Applications
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USER_LIBRARY_DIR=/Users/runner/Library
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USES_XCTRUNNER=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_DYNAMIC_NO_PIC=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_GCC3_PFE_SUPPORT=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_HEADERMAP=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_HEADER_SYMLINKS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_PORT=8100
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export USE_SDK_TOOLCHAINS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VALIDATE_PLIST_FILES_WHILE_COPYING=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VALIDATE_PRODUCT=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VALIDATE_STRINGS_FILES_WHILE_COPYING=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VALIDATE_WORKSPACE=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VALID_ARCHS="arm64 x86_64"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VCPKG_INSTALLATION_ROOT=/usr/local/share/vcpkg
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERBOSE_PBXCP=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSIONING_STUB=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSIONING_SYSTEM=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSIONPLIST_PATH=WebDriverAgentRunner.xctest/version.plist
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSIONS_FOLDER_PATH=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_BUILDER=runner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_EXPORT_DECL=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_FILE=WebDriverAgentRunner_vers.c
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_PREFIX=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_STRING="\"@(#)PROGRAM:WebDriverAgentRunner  PROJECT:WebDriverAgent-\""
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VERSION_INFO_SUFFIX=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export VM_ASSETS=/usr/local/opt/runner/scripts
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export ValidateForStore=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WARNING_CFLAGS=" -Weverything -Wno-objc-missing-property-synthesis -Wno-unused-macros -Wno-disabled-macro-expansion -Wno-gnu-statement-expression -Wno-language-extension-token -Wno-overriding-method-mismatch -Wno-missing-variable-declarations -Rno-module-build -Wno-auto-import -Wno-objc-interface-ivars -Wno-documentation-unknown-command -Wno-reserved-id-macro -Wno-unused-parameter -Wno-gnu-conditional-omitted-operand -Wno-explicit-ownership-type -Wno-date-time -Wno-cast-align -Wno-cstring-format-directive -Wno-double-promotion -Wno-partial-availability -Wno-declaration-after-statement -Wno-objc-messaging-id -Wno-direct-ivar-access -Wno-cast-qual -Wno-deprecated-declarations -Wno-reserved-identifier -Weverything -Wno-objc-missing-property-synthesis -Wno-unused-macros -Wno-disabled-macro-expansion -Wno-gnu-statement-expression -Wno-language-extension-token -Wno-overriding-method-mismatch -Wno-missing-variable-declarations -Rno-module-build -Wno-auto-import -Wno-objc-interface-ivars -Wno-documentation-unknown-command -Wno-reserved-id-macro -Wno-unused-parameter -Wno-gnu-conditional-omitted-operand -Wno-explicit-ownership-type -Wno-date-time -Wno-cast-align -Wno-cstring-format-directive -Wno-double-promotion -Wno-partial-availability -Wno-cast-qual"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WATCHOS_DEPLOYMENT_TARGET=8.7
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WATCH_BUILT_PRODUCTS_DIR=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products/Debug-watchsimulator
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_PRODUCT_BUNDLE_IDENTIFIER=com.facebook.WebDriverAgentRunner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_1600="XCTest.framework XCTestCore.framework XCUIAutomation.framework XCTAutomationSupport.framework Testing.framework ResultDataPublisher.framework XCTestSupport.framework libXCTestSwiftSupport.dylib lib_TestingInterop.dylib _Testing_Foundation.framework"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_2600="XCTest.framework XCTestCore.framework XCUIAutomation.framework XCTAutomationSupport.framework Testing.framework ResultDataPublisher.framework XCTestSupport.framework libXCTestSwiftSupport.dylib"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_MINOR_2600=lib_TestingInterop.dylib
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_MINOR_2610=lib_TestingInterop.dylib
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_MINOR_2620=lib_TestingInterop.dylib
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WDA_XCTEST_EXCLUDED_MINOR_2630=lib_TestingInterop.dylib
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WORKSPACE_PATH=/Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj/project.xcworkspace
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WRAPPER_EXTENSION=xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WRAPPER_NAME=WebDriverAgentRunner.xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WRAPPER_PREFIX=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WRAPPER_SUFFIX=.xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export WRAP_ASSET_PACKS_IN_SEPARATE_DIRECTORIES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_26_DEVELOPER_DIR=/Applications/Xcode_26.6.app/Contents/Developer
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_APP_SUPPORT_DIR=/Applications/Xcode_26.6.app/Contents/Developer/Library/Xcode
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_DEVELOPER_DIR_PATH=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_PRODUCT_BUILD_VERSION=17F113
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_VERSION_ACTUAL=2660
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_VERSION_MAJOR=2600
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCODE_VERSION_MINOR=2660
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCSTRINGS_FORCE_BUILD_ALL_STRINGS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCSTRINGS_LANGUAGES_TO_COMPILE=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCTRUNNER_BUNDLE_IDENTIFIER=com.facebook.WebDriverAgentRunner.xctrunner
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XCTRUNNER_PATH=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XIB_COMPILER_INFOPLIST_CONTENT_FILE=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Intermediates.noindex/WebDriverAgent.build/Debug-iphonesimulator/WebDriverAgentRunner.build/-PartialInfo.plist
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XPCSERVICES_FOLDER_PATH=WebDriverAgentRunner.xctest/XPCServices
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XPC_FLAGS=0x0
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XPC_SERVICE_NAME=0
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export XROS_DEPLOYMENT_TARGET=1.3
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export YACC=yacc
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export YACCFLAGS=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export YACC_GENERATED_FILE_STEM=Standard
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export YACC_GENERATE_DEBUGGING_DIRECTIVES=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export YACC_INSERT_LINE_DIRECTIVES=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _=/usr/bin/nohup
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_ENABLE_TYPED_ALLOCATOR_SUPPORT_DEFAULT=compiler-default
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_ENABLE_TYPED_ALLOCATOR_SUPPORT_DEFAULT_ENHANCED_SECURITY_NO=compiler-default
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_ENABLE_TYPED_ALLOCATOR_SUPPORT_DEFAULT_ENHANCED_SECURITY_YES=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_TRIVIAL_AUTO_VAR_INIT_DEFAULT=default
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_TRIVIAL_AUTO_VAR_INIT_DEFAULT_ENABLE_ZERO_INIT_NO=default
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _CLANG_TRIVIAL_AUTO_VAR_INIT_DEFAULT_ENABLE_ZERO_INIT_YES=zero
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _DISCOVER_COMMAND_LINE_LINKER_INPUTS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _DISCOVER_COMMAND_LINE_LINKER_INPUTS_INCLUDE_WL=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _LD_MULTIARCH=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _PREFIXED_SWIFT_VERSION=_
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _REZ_PREFIX_FILE=/Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _UNSAFE_BUFFER_USAGE_DEFAULT=DEFAULT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _UNSAFE_BUFFER_USAGE_DEFAULT_ENABLE_SAFE_BUFFERS_NO=DEFAULT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _UNSAFE_BUFFER_USAGE_DEFAULT_ENABLE_SAFE_BUFFERS_YES=YES_ERROR
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_CONTENTS_DIR=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_CONTENTS_DIR_SHALLOW_BUNDLE_NO=/Contents
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_PARENT_PATH=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_PARENT_PATH_SHALLOW_BUNDLE_NO=/..
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_RESOURCES_DIR=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _WRAPPER_RESOURCES_DIR_SHALLOW_BUNDLE_NO=/Resources
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CF_USER_TEXT_ENCODING="0x1F5:0x0:0x0"
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_DIVIDE_BY_ZERO_NO_SILENCE_STRING=core.DivideZero
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_DIVIDE_BY_ZERO_YES_SILENCE_STRING=.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_NULL_DEREFERENCE_NO_SILENCE_STRING=core.NullDereference
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_NULL_DEREFERENCE_YES_SILENCE_STRING=.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_SILENCE_CHECKERS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CLANG_ANALYZER_SILENCE_CHECKERS_LIST=".;."
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CPP_PREFIX_HEADER=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __CREATE_INFOPLIST_SECTION_IN_BINARY=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __DIAGNOSE_DEPRECATED_ARCHS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_NO_NO=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_NO_YES=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES_NO=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES_YES=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __IIG_DEPLOYMENT_TARGET__=26.5
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __IIG_FRAMEWORK_NAME__=com.apple.product-type.bundle.ui-testing
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __INPUT_FILE_LIST_PATH__=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __IS_NOT_MACOS=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __IS_NOT_MACOS_macosx=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE=debug
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_0_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_NO=debug
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_0_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=debug
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_1_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_2_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_3_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_fast_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_s_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __LIBRARY_HARDENING_DEFAULT_VALUE_OPT_LEVEL_z_ENHANCED_SECURITY_OR_BOUNDS_SAFE_BUFFERS_YES=fast
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __OTHER_IIG_CFLAGS__=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __SWIFT_ENFORCE_EXCLUSIVE_ACCESS_DEBUG_ENFORCEMENT_DEBUG=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __SWIFT_ENFORCE_EXCLUSIVE_ACCESS_DEBUG_ENFORCEMENT_RELEASE=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __infoplist_absolute__=/Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app//PlugIns/WebDriverAgentRunner.xctest
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __infoplist_subpath__=Info.plist
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export __no_validate_extension__=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _exclude_ds_store_files_=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export _resolve_src_symlinks_=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export arch=undefined_arch
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export build_file_compiler_flags=
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export diagnostic_message_length=0
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export mig_generate_client_sources=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export mig_generate_server_sources=NO
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export print_note_include_stack=YES
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     export variant=normal
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     /bin/sh -c /var/folders/q2/p1t6rgxj5fj32g1dc7dmd49r0000gn/T/SchemeScriptAction-mqu1OK.sh
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_FORMAT
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Warning: unknown environment variable SWIFT_DEBUG_INFORMATION_VERSION
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m /Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app: replacing existing signature
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m embedded icon into /Users/runner/Library/Developer/Xcode/DerivedData/WebDriverAgent-dtmoeonrefnxsncuficthanbldlc/Build/Products/Debug-iphonesimulator/WebDriverAgentRunner-Runner.app
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m ** TEST BUILD SUCCEEDED **
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m --- xcodebuild: WARNING: Using the first of multiple matching destinations:
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m { platform:iOS Simulator, arch:arm64, id:CDC7077E-2206-4FEC-B03A-52EB15B2CAD4, OS:26.5, name:iPhone 17 Pro }
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m { platform:iOS Simulator, arch:x86_64, id:CDC7077E-2206-4FEC-B03A-52EB15B2CAD4, OS:26.5, name:iPhone 17 Pro }
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:31.311728+0000 WebDriverAgentRunner-Runner[11835:41111] [Default] Running tests...
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m objc[11835]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x1066ec310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x106650398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =      nans Interface orientation changed to Portrait
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Test Suite 'All tests' started at 2026-11-19 04:53:38.811.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Test Suite 'WebDriverAgentRunner.xctest' started at 2026-11-19 04:53:38.812.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Test Suite 'UITestingUITests' started at 2026-11-19 04:53:38.812.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =      nans Suite Set Up
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m Test Case '-[UITestingUITests testRunner]' started.
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =     0.00s Start Test at 2026-11-19 04:53:39.228
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =     0.01s Set Up
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:39.233130+0000 WebDriverAgentRunner-Runner[11835:41111] Built at Nov 19 2026 04:52:54
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:39.336672+0000 WebDriverAgentRunner-Runner[11835:41847] [] nw_listener_socket_inbox_create_socket setsockopt SO_NECP_LISTENUUID failed [2: No such file or directory]
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:39.338197+0000 WebDriverAgentRunner-Runner[11835:41111] ServerURLHere->http://192.168.64.9:8100<-ServerURLHere
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:39.339115+0000 WebDriverAgentRunner-Runner[11835:41848] [] nw_listener_socket_inbox_create_socket setsockopt SO_NECP_LISTENUUID failed [2: No such file or directory]
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:39.802193+0000 WebDriverAgentRunner-Runner[11835:41844] Using singleton test manager
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =     3.41s Open com.apple.mobilesafari
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =     3.41s     Launch com.apple.mobilesafari
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    15.87s         Setting up automation session
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:53:57.093497+0000 WebDriverAgentRunner-Runner[11835:41111] Waiting up to 10s until com.apple.mobilesafari is in idle state (including animations)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    17.87s         Wait for com.apple.mobilesafari to idle
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m WDA session startup took 18849ms
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m WebDriverAgent version: '17.0.12'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    19.17s Get all elements bound by accessibility element for: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    19.46s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    19.61s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    19.61s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.26s Find the ScrollView (Identity Binding)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.26s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.63s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.63s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.63s     Find: Identity Binding
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.63s Find the ScrollView (Identity Binding)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.63s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.79s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.79s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    20.79s     Find: Identity Binding
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.03s Get all elements bound by accessibility element for: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.03s     Requesting snapshot of accessibility hierarchy for app with pid 12797
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.14s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.14s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.29s Find the ScrollView (Identity Binding)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.29s     Requesting snapshot of accessibility hierarchy for app with pid 12797
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.33s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.33s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    21.33s     Find: Identity Binding
+[38;5;195m[8ae9f109][0m[38;5;87m[RemoteDebugger][0m Remote Debugger version 19.1.20
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.63s Get all elements bound by accessibility element for: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.63s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.67s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.67s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.69s Find the ScrollView (Identity Binding)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.69s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.72s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.72s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.72s     Find: Identity Binding
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.72s Find the ScrollView (Identity Binding)
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.72s     Requesting snapshot of accessibility hierarchy for app with pid 6678
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.75s     Find: Descendants matching type Any
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.75s     Find: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.75s     Find: Identity Binding
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.76s Get all elements bound by accessibility element for: Elements matching predicate 'elementType IN {7, 5, 46}'
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m     t =    23.76s     Requesting snapshot of accessibility hierarchy for app with pid 12797
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m The remote debugger did not report any active web applications within 5000ms timeout. Consider increasing the value of 'webviewConnectTimeout' capability to wait longer on slower devices.
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m Error: The remote debugger did not return any connected web applications after 7958ms. Make sure your web application is debuggable and could be inspected in Safari Web Inspector. You may try to change the 'webviewConnectTimeout' capability value to customize the retrieval timeout.
+    at XCUITestDriver.activateRecentWebview (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/commands/context.js:48:15)
+    at async XCUITestDriver.finalizeSessionStartup (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:876:13)
+    at async XCUITestDriver.start (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:729:9)
+    at async XCUITestDriver.createSession (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:376:13)
+    at async AppiumDriver.createSession (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/build/lib/appium.js:231:40)
+    at async runWithCommandTimeout.restart (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/node_modules/@appium/base-driver/build/lib/basedriver/driver.js:88:28)
+    at async runWithCommandTimeout (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/node_modules/@appium/base-driver/build/lib/basedriver/command-timeout.js:24:16)
+    at async runCommandPromise (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/node_modules/@appium/base-driver/build/lib/basedriver/driver.js:80:20)
+    at async AppiumDriver.executeCommand (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/node_modules/@appium/base-driver/build/lib/basedriver/driver.js:112:15)
+    at async defaultBehavior (file:///Users/runner/hostedtoolcache/node/24.22.3/arm64/lib/node_modules/appium/build/lib/appium.js:512:24)
+[38;5;195m[8ae9f109][0m[38;5;123m[BaseDriver][0m Unsubscribing 08c530ad-ee28-4b85-83b4-fd9db3090c0c from topic 'xcuitest:sessionUdidClaimed'
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m Releasing connections for CDC7077E-2206-4FEC-B03A-52EB15B2CAD4 device on any port number
+[38;5;195m[8ae9f109][0m[38;5;189m[XCUITestDriver@08c5][0m Found cached connections to release: ["CDC7077E-2206-4FEC-B03A-52EB15B2CAD4:8100"]
+[38;5;86m[HTTP][0m <-- POST /session 500 281902 ms - 3382
+[38;5;195m[8ae9f109][0m[38;5;173m[Xcode][0m 2026-11-19 04:54:12.547291+0000 WebDriverAgentRunner-Runner[11835:44366] Could not terminate 'com.apple.mobilesafari' within 5 seconds; giving up on it rather than risk terminating a possible replacement session's app later
