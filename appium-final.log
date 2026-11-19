@@ -1,0 +1,51 @@
+[38;5;112m[Appium][0m Welcome to Appium v4.0.0
+[38;5;112m[Appium][0m Non-default server args:
+[38;5;112m[Appium][0m { address: [32m'127.0.0.1'[39m }
+[38;5;112m[Appium][0m Attempting to load driver xcuitest...
+[38;5;86m[HTTP][0m Appium REST http interface listener started on http://127.0.0.1:4723
+[38;5;112m[Appium][0m Available drivers:
+[38;5;112m[Appium][0m   - xcuitest@13.1.3 (automationName 'XCUITest')
+[38;5;112m[Appium][0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 200 684 ms - 110
+[38;5;86m[HTTP][0m --> GET /status 
+[38;5;86m[HTTP][0m <-- GET /status 200 58 ms - 110
+[38;5;86m[HTTP][0m --> POST /session {"capabilities":{"alwaysMatch":{"platformName":"iOS","browserName":"Safari","appium:automationName":"XCUITest","appium:udid":"FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC","appium:safariIgnoreFraudWarning":true,"appium:wdaLaunchTimeout":720000,"appium:wdaConnectionTimeout":720000,"appium:showXcodeLog":true,"appium:webviewConnectTimeout":120000,"appium:safariInitialUrl":"about:blank","appium:includeSafariInWebviews":true,"appium:safariAllowPopups":true,"appium:newCommandTimeout":600,"appium:autoAcceptAlerts":true}}}
+[38;5;112m[Appium][0m Attempting to find matching driver for automationName 'XCUITest' and platformName 'iOS'
+[38;5;112m[Appium][0m The 'xcuitest' driver was installed and matched caps.
+[38;5;112m[Appium][0m Will require it at /Users/runner/.appium/node_modules/appium-xcuitest-driver
+[38;5;168m[AppiumDriver@2350][0m Appium v4.0.0 creating new XCUITestDriver (v13.1.3) session
+[38;5;168m[AppiumDriver@2350][0m Checking BaseDriver versions for Appium and XCUITestDriver
+[38;5;168m[AppiumDriver@2350][0m Appium's BaseDriver version is 11.0.0
+[38;5;168m[AppiumDriver@2350][0m XCUITestDriver's BaseDriver version is 11.0.0
+[38;5;196m[XCUITestDriver@0cec][0m 'platformVersion' capability ('undefined') is not a valid version number. Consider fixing it or be ready to experience an inconsistent driver behavior.
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Session created with session id: a5ee28bc-acb2-41da-b823-61c6dec3ed6f
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Constructing iOS simulator for Xcode version 26.6 with udid 'FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m No platformVersion specified. Using device version: '26.5'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Determining device to run tests on: udid: 'FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC', real device: false
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Subscribing 0cecec8c-bd71-4e3c-8be0-06262795357a to topic 'xcuitest:sessionUdidClaimed'
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Subscribing 0cecec8c-bd71-4e3c-8be0-06262795357a to topic 'xcuitest:sessionUdidContended'
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Subscribing 0cecec8c-bd71-4e3c-8be0-06262795357a to topic 'xcuitest:sessionUdidReleased'
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Unsubscribing 0cecec8c-bd71-4e3c-8be0-06262795357a from topic 'xcuitest:sessionUdidContended'
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Unsubscribing 0cecec8c-bd71-4e3c-8be0-06262795357a from topic 'xcuitest:sessionUdidReleased'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Safari test requested
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Using WDA path: '/Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Using WDA agent: '/Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Setting up simulator
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Simulator 'FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC' is booted while its UI is not visible. Trying to restart it with the Simulator window visible
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Starting UI client: open -Fn /Applications/Xcode_26.6.app/Contents/Developer/Applications/Simulator.app
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m NativeSimError: Device 'FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC' did not finish booting within 120000ms
+    at wrapNativeError (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/@appium/coresim/lib/src/errors.js:93:19)
+    at runCatchingAsync (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/@appium/coresim/lib/src/utils/run-catching.js:8:9)
+    at async SimulatorXcode15.waitForBoot (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-ios-simulator/build/lib/extensions/lifecycle.js:106:5)
+    at async SimulatorXcode15.run (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/node_modules/appium-ios-simulator/build/lib/extensions/ui-client.js:212:9)
+    at async XCUITestDriver.startSim (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/commands/simulator.js:68:5)
+    at async XCUITestDriver.initSimulator (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/commands/simulator.js:13:5)
+    at async XCUITestDriver.setupDevice (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:840:13)
+    at async XCUITestDriver.start (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:727:9)
+    at async XCUITestDriver.createSession (file:///Users/runner/.appium/node_modules/appium-xcuitest-driver/build/lib/driver.js:376:13)
+    at async AppiumDriver.createSession (file:///Users/runner/hostedtoolcache/node/24.22.2/arm64/lib/node_modules/appium/build/lib/appium.js:231:40)
+[38;5;19m[a5ee28bc][0m[38;5;123m[BaseDriver][0m Unsubscribing 0cecec8c-bd71-4e3c-8be0-06262795357a from topic 'xcuitest:sessionUdidClaimed'
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m Releasing connections for FCC5F673-7BEC-4A7D-8F2A-4DC35E2668EC device on any port number
+[38;5;19m[a5ee28bc][0m[38;5;196m[XCUITestDriver@0cec][0m No cached connections have been found
+[38;5;86m[HTTP][0m <-- POST /session 500 153101 ms - 2612
