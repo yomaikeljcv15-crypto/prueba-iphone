@@ -1,0 +1,58 @@
+name: Prueba en iPhone real (simulador de Apple)
+on:
+  push:
+    branches: [ccr-0fad2201-t2nf7s]
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Enlace del menú
+        default: https://menusazonpro.pages.dev/m/amikumo/
+permissions:
+  contents: write
+jobs:
+  iphone:
+    runs-on: macos-14
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Elegir y encender un iPhone
+        run: |
+          xcrun simctl list devices available | grep -i iphone | head -8
+          UDID=$(xcrun simctl list devices available -j | node -e "const d=JSON.parse(require('fs').readFileSync(0));const runs=Object.keys(d.devices).filter(k=>/iOS/.test(k)).sort();const r=runs[runs.length-1];const dev=d.devices[r].filter(x=>/iPhone 1[3-6]( Pro)?$/.test(x.name))[0]||d.devices[r].filter(x=>/iPhone/.test(x.name))[0];console.log(dev.udid)")
+          echo "UDID=$UDID" >> $GITHUB_ENV
+          xcrun simctl boot $UDID || true
+          xcrun simctl bootstatus $UDID -b
+          xcrun simctl list devices | grep $UDID
+      - name: Instalar Appium
+        run: |
+          npm install -g appium@2
+          appium driver install xcuitest
+      - name: Arrancar Appium
+        run: |
+          nohup appium --port 4723 > appium.log 2>&1 &
+          for i in $(seq 1 30); do curl -s http://127.0.0.1:4723/status >/dev/null && break; sleep 2; done
+      - name: Hacer el pedido en el iPhone
+        env:
+          URL_MENU: ${{ github.event.inputs.url || 'https://menusazonpro.pages.dev/m/amikumo/' }}
+        run: node iphone-flow.js 2>&1 | tee resultado.txt
+      - name: Guardar capturas
+        if: always()
+        run: |
+          tail -80 appium.log > appium-final.log || true
+          git config user.name "prueba-iphone"; git config user.email "bot@example.com"
+          git checkout --orphan capturas-${{ github.run_number }}
+          git rm -rf . >/dev/null 2>&1 || true
+          mkdir -p out && cp -r capturas out/ 2>/dev/null || true; cp resultado.txt appium-final.log out/ 2>/dev/null || true
+          cd out && git init -q 2>/dev/null; cd ..
+          git add -f out
+          git commit -qm "capturas de la corrida ${{ github.run_number }}" || true
+          git push -f origin HEAD:capturas-${{ github.run_number }} || true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: capturas
+          path: |
+            capturas
+            resultado.txt
