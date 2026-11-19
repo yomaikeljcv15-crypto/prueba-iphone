@@ -1,0 +1,4 @@
+ERROR fetch failed
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: 66804E2B-A1C0-4676-95A8-8BF308802DA7 (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/error-iphone.png
