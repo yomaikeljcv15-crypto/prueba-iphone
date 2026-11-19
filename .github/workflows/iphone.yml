@@ -27,16 +27,20 @@ jobs:
           xcrun simctl list devices | grep $UDID
       - name: Instalar Appium
         run: |
-          npm install -g appium@latest
-          appium driver install xcuitest
+          node --version
+          npm install -g appium@latest 2>&1 | tail -5
+          npm ls -g --depth=0
+          ls -la $(dirname $(which node)) | grep -i appium || true
+          appium --version; echo "appium --version salió con $?"
+          appium driver install xcuitest 2>&1 | tail -15
+          appium driver list --installed; echo "driver list salió con $?"
       - name: Arrancar Appium
         run: |
-          which appium; appium --version
-          appium driver list --installed
+          set -x
           nohup appium --address 127.0.0.1 --port 4723 --log-level info > appium.log 2>&1 &
-          for i in $(seq 1 40); do curl -s http://127.0.0.1:4723/status && break; sleep 3; done
-          echo "--- appium.log ---"; tail -30 appium.log
-          curl -s http://127.0.0.1:4723/status || (echo "APPIUM NO ARRANCÓ"; exit 1)
+          sleep 15; cat appium.log | tail -30
+          for i in $(seq 1 20); do curl -s http://127.0.0.1:4723/status && break; sleep 3; done
+          curl -s http://127.0.0.1:4723/status || (echo "APPIUM NO ARRANCÓ"; tail -50 appium.log; exit 1)
       - name: Hacer el pedido en el iPhone
         env:
           URL_MENU: ${{ github.event.inputs.url || 'https://menusazonpro.pages.dev/m/amikumo/' }}
