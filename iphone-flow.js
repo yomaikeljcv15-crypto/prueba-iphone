@@ -6,7 +6,15 @@ const URL_MENU = process.env.URL_MENU || 'https://menusazonpro.pages.dev/m/amiku
 const UDID = process.env.UDID;
 const A = 'http://127.0.0.1:4723';
 const sleep = ms => new Promise(r => setTimeout(r, ms));
-const j = async (m, p, b) => { const r = await fetch(A + p, { method: m, headers: { 'content-type': 'application/json' }, body: b ? JSON.stringify(b) : undefined }); return r.json(); };
+const http = require('http');
+// petición sin límite corto de espera (la primera sesión compila WebDriverAgent y puede tardar 5-10 min)
+const j = (m, p, b) => new Promise((ok, mal) => {
+  const body = b ? JSON.stringify(b) : null;
+  const rq = http.request({ host: '127.0.0.1', port: 4723, path: p, method: m, headers: Object.assign({ 'content-type': 'application/json' }, body ? { 'content-length': Buffer.byteLength(body) } : {}) }, rs => {
+    let d = ''; rs.on('data', c => d += c); rs.on('end', () => { try { ok(JSON.parse(d)); } catch (e) { ok({ value: { error: 'respuesta no JSON', raw: d.slice(0, 200) } }); } });
+  });
+  rq.setTimeout(0); rq.on('error', mal); if (body) rq.write(body); rq.end();
+});
 fs.mkdirSync('capturas', { recursive: true });
 const log = (...a) => console.log(...a);
 let id;
@@ -24,7 +32,7 @@ const estado = () => ev(`const pm=document.getElementById('pagoModal'),ov=docume
   return JSON.stringify({version:window.MENUPRO_VERSION||'?',boton:w&&w.textContent.trim(),botonOff:w&&w.disabled,hojaEntrega:!!ov,hojaSinStock:mp?mp.innerText.slice(0,60).replace(/\\n/g,'/'):null,pagoVisible:pm?!pm.hidden:null,metodos:pm?Array.from(pm.querySelectorAll('.pm-btn')).filter(b=>!b.hidden).map(b=>b.textContent.trim()):null,ancho:innerWidth,alto:innerHeight,ua:navigator.userAgent})`);
 (async () => {
   const caps = { platformName: 'iOS', browserName: 'Safari', 'appium:automationName': 'XCUITest', 'appium:udid': UDID, 'appium:safariIgnoreFraudWarning': true,
-    'appium:wdaLaunchTimeout': 300000, 'appium:wdaConnectionTimeout': 300000, 'appium:newCommandTimeout': 600, 'appium:autoAcceptAlerts': true };
+    'appium:wdaLaunchTimeout': 720000, 'appium:wdaConnectionTimeout': 720000, 'appium:showXcodeLog': true, 'appium:newCommandTimeout': 600, 'appium:autoAcceptAlerts': true };
   const s = await j('POST', '/session', { capabilities: { alwaysMatch: caps } });
   if (!s.value || !s.value.sessionId) { log('NO SESIÓN', JSON.stringify(s).slice(0, 600)); process.exit(1); }
   id = s.value.sessionId; log('sesión ok');

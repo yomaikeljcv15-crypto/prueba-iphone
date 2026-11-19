@@ -12,7 +12,7 @@ permissions:
 jobs:
   iphone:
     runs-on: macos-latest
-    timeout-minutes: 40
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -49,7 +49,7 @@ jobs:
       - name: Guardar capturas
         if: always()
         run: |
-          tail -120 appium.log > appium-final.log 2>/dev/null || true
+          grep -v 'ECONNREFUSED 127.0.0.1:8100' appium.log | tail -400 > appium-final.log 2>/dev/null || true
           rm -rf /tmp/out && mkdir -p /tmp/out
           cp -r capturas /tmp/out/ 2>/dev/null || true
           cp resultado.txt appium-final.log /tmp/out/ 2>/dev/null || true
