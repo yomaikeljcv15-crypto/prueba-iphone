@@ -1,0 +1,29 @@
+sesión ok
+SW del sitio: sazonpro-menu-v169-v11125-iphone
+0 inicio {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: FEC7EBAD-9989-4A13-9853-A9E49F1C3C3C (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/0-inicio-iphone.png
+1 carrito {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":false,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: FEC7EBAD-9989-4A13-9853-A9E49F1C3C3C (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/1-carrito-iphone.png
+toque en Continuar con mi pedido
+2 t+3s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":true,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+2 t+6s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":true,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+2 t+9s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":true,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+2 t+12s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":true,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: FEC7EBAD-9989-4A13-9853-A9E49F1C3C3C (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/2-despues-de-continuar-iphone.png
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: FEC7EBAD-9989-4A13-9853-A9E49F1C3C3C (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/3-retiro-iphone.png
+3 retiro elegido {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":true,"hojaSinStock":null,"pagoVisible":false,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+4 t+3s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":true,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+4 t+6s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":true,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+4 t+9s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":true,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+4 t+12s {"version":"v11.124","boton":"✅ Continuar con mi pedido","botonOff":true,"hojaEntrega":false,"hojaSinStock":null,"pagoVisible":true,"metodos":["💵 Efectivo","🏦 Pago móvil / Transferencia","📒 Fiado"],"ancho":402,"alto":714,"ua":"Mozilla/5.0 (iPhone; CPU iPhone OS 18_7 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1"}
+Detected file type from extension: PNG
+Note: No display specified. Defaulting to display: FEC7EBAD-9989-4A13-9853-A9E49F1C3C3C (screenID: 1, name: LCD)
+Wrote screenshot to: /Users/runner/work/prueba-iphone/prueba-iphone/capturas/4-final-iphone.png
