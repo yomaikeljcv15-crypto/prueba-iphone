@@ -31,8 +31,12 @@ jobs:
           appium driver install xcuitest
       - name: Arrancar Appium
         run: |
-          nohup appium --port 4723 > appium.log 2>&1 &
-          for i in $(seq 1 30); do curl -s http://127.0.0.1:4723/status >/dev/null && break; sleep 2; done
+          which appium; appium --version
+          appium driver list --installed
+          nohup appium --address 127.0.0.1 --port 4723 --log-level info > appium.log 2>&1 &
+          for i in $(seq 1 40); do curl -s http://127.0.0.1:4723/status && break; sleep 3; done
+          echo "--- appium.log ---"; tail -30 appium.log
+          curl -s http://127.0.0.1:4723/status || (echo "APPIUM NO ARRANCÓ"; exit 1)
       - name: Hacer el pedido en el iPhone
         env:
           URL_MENU: ${{ github.event.inputs.url || 'https://menusazonpro.pages.dev/m/amikumo/' }}
@@ -40,7 +44,7 @@ jobs:
       - name: Guardar capturas
         if: always()
         run: |
-          tail -80 appium.log > appium-final.log 2>/dev/null || true
+          tail -120 appium.log > appium-final.log 2>/dev/null || true
           rm -rf /tmp/out && mkdir -p /tmp/out
           cp -r capturas /tmp/out/ 2>/dev/null || true
           cp resultado.txt appium-final.log /tmp/out/ 2>/dev/null || true
