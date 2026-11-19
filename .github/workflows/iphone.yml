@@ -42,6 +42,14 @@ jobs:
           sleep 20; tail -30 appium.log
           for i in $(seq 1 20); do curl -s http://127.0.0.1:4723/status && break; sleep 3; done
           curl -s http://127.0.0.1:4723/status || (echo "APPIUM NO ARRANCÓ"; tail -50 appium.log; exit 1)
+      - name: Calentar Safari en el iPhone
+        run: |
+          xcrun simctl spawn $UDID defaults write com.apple.mobilesafari WebKitDeveloperExtrasEnabledPreferenceKey -bool true || true
+          xcrun simctl spawn $UDID defaults write com.apple.mobilesafari WebInspectorEnabled -bool true || true
+          xcrun simctl spawn $UDID defaults write com.apple.mobilesafari IncludeDevelopMenu -bool true || true
+          xcrun simctl openurl $UDID https://example.com
+          sleep 20
+          xcrun simctl io $UDID screenshot safari-calentado.png || true
       - name: Hacer el pedido en el iPhone
         env:
           URL_MENU: ${{ github.event.inputs.url || 'https://menusazonpro.pages.dev/m/amikumo/' }}
@@ -51,7 +59,7 @@ jobs:
         run: |
           grep -v 'ECONNREFUSED 127.0.0.1:8100' appium.log | tail -400 > appium-final.log 2>/dev/null || true
           rm -rf /tmp/out && mkdir -p /tmp/out
-          cp -r capturas /tmp/out/ 2>/dev/null || true
+          cp -r capturas /tmp/out/ 2>/dev/null || true; cp safari-calentado.png /tmp/out/ 2>/dev/null || true
           cp resultado.txt appium-final.log /tmp/out/ 2>/dev/null || true
           cd /tmp/out && git init -q && git checkout -q -b capturas-${{ github.run_number }}
           git add -A && git -c user.name=prueba-iphone -c user.email=bot@example.com commit -qm "capturas de la corrida ${{ github.run_number }}" || true
