@@ -1,0 +1,7 @@
+name: Ping (comprobar que Actions funciona)
+on: workflow_dispatch
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Actions funciona en Linux"
