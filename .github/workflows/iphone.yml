@@ -28,17 +28,18 @@ jobs:
       - name: Instalar Appium
         run: |
           node --version
-          npm install -g appium@latest 2>&1 | tail -5
-          npm ls -g --depth=0
-          ls -la $(dirname $(which node)) | grep -i appium || true
-          appium --version; echo "appium --version salió con $?"
-          appium driver install xcuitest 2>&1 | tail -15
-          appium driver list --installed; echo "driver list salió con $?"
-      - name: Arrancar Appium
+          npm install -g appium@latest 2>&1 | tail -3
+          RAIZ="$(npm root -g)/appium"; echo "RAIZ=$RAIZ"; ls $RAIZ | head -20
+          node -e "const p=require('$RAIZ/package.json');console.log('version',p.version,'main',p.main,'bin',JSON.stringify(p.bin),'node',JSON.stringify(p.engines))"
+          echo "APPIUM_CLI=$(node -e "const p=require('$RAIZ/package.json');const b=typeof p.bin==='string'?p.bin:Object.values(p.bin)[0];console.log(require('path').join('$RAIZ',b))")" >> $GITHUB_ENV
+      - name: Instalar el complemento de iPhone y arrancar
         run: |
-          set -x
-          nohup appium --address 127.0.0.1 --port 4723 --log-level info > appium.log 2>&1 &
-          sleep 15; cat appium.log | tail -30
+          echo "CLI: $APPIUM_CLI"
+          node "$APPIUM_CLI" --version; echo "version salió con $?"
+          node "$APPIUM_CLI" driver install xcuitest 2>&1 | tail -15
+          node "$APPIUM_CLI" driver list --installed 2>&1 | tail; 
+          nohup node "$APPIUM_CLI" --address 127.0.0.1 --port 4723 --log-level info > appium.log 2>&1 &
+          sleep 20; tail -30 appium.log
           for i in $(seq 1 20); do curl -s http://127.0.0.1:4723/status && break; sleep 3; done
           curl -s http://127.0.0.1:4723/status || (echo "APPIUM NO ARRANCÓ"; tail -50 appium.log; exit 1)
       - name: Hacer el pedido en el iPhone
