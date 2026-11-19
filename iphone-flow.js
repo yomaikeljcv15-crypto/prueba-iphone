@@ -32,7 +32,7 @@ const estado = () => ev(`const pm=document.getElementById('pagoModal'),ov=docume
   return JSON.stringify({version:window.MENUPRO_VERSION||'?',boton:w&&w.textContent.trim(),botonOff:w&&w.disabled,hojaEntrega:!!ov,hojaSinStock:mp?mp.innerText.slice(0,60).replace(/\\n/g,'/'):null,pagoVisible:pm?!pm.hidden:null,metodos:pm?Array.from(pm.querySelectorAll('.pm-btn')).filter(b=>!b.hidden).map(b=>b.textContent.trim()):null,ancho:innerWidth,alto:innerHeight,ua:navigator.userAgent})`);
 (async () => {
   const caps = { platformName: 'iOS', browserName: 'Safari', 'appium:automationName': 'XCUITest', 'appium:udid': UDID, 'appium:safariIgnoreFraudWarning': true,
-    'appium:wdaLaunchTimeout': 720000, 'appium:wdaConnectionTimeout': 720000, 'appium:showXcodeLog': true, 'appium:webviewConnectTimeout': 120000, 'appium:safariInitialUrl': 'about:blank', 'appium:includeSafariInWebviews': true, 'appium:safariAllowPopups': true, 'appium:newCommandTimeout': 600, 'appium:autoAcceptAlerts': true };
+    'appium:wdaLaunchTimeout': 720000, 'appium:wdaConnectionTimeout': 720000, 'appium:showXcodeLog': true, 'appium:isHeadless': true, 'appium:webviewConnectTimeout': 120000, 'appium:safariInitialUrl': 'about:blank', 'appium:includeSafariInWebviews': true, 'appium:safariAllowPopups': true, 'appium:newCommandTimeout': 600, 'appium:autoAcceptAlerts': true };
   const s = await j('POST', '/session', { capabilities: { alwaysMatch: caps } });
   if (!s.value || !s.value.sessionId) { log('NO SESIÓN', JSON.stringify(s).slice(0, 600)); process.exit(1); }
   id = s.value.sessionId; log('sesión ok');
