@@ -27,7 +27,7 @@ jobs:
           xcrun simctl list devices | grep $UDID
       - name: Instalar Appium
         run: |
-          npm install -g appium@2
+          npm install -g appium@latest
           appium driver install xcuitest
       - name: Arrancar Appium
         run: |
@@ -40,15 +40,14 @@ jobs:
       - name: Guardar capturas
         if: always()
         run: |
-          tail -80 appium.log > appium-final.log || true
-          git config user.name "prueba-iphone"; git config user.email "bot@example.com"
-          git checkout --orphan capturas-${{ github.run_number }}
-          git rm -rf . >/dev/null 2>&1 || true
-          mkdir -p out && cp -r capturas out/ 2>/dev/null || true; cp resultado.txt appium-final.log out/ 2>/dev/null || true
-          cd out && git init -q 2>/dev/null; cd ..
-          git add -f out
-          git commit -qm "capturas de la corrida ${{ github.run_number }}" || true
-          git push -f origin HEAD:capturas-${{ github.run_number }} || true
+          tail -80 appium.log > appium-final.log 2>/dev/null || true
+          rm -rf /tmp/out && mkdir -p /tmp/out
+          cp -r capturas /tmp/out/ 2>/dev/null || true
+          cp resultado.txt appium-final.log /tmp/out/ 2>/dev/null || true
+          cd /tmp/out && git init -q && git checkout -q -b capturas-${{ github.run_number }}
+          git add -A && git -c user.name=prueba-iphone -c user.email=bot@example.com commit -qm "capturas de la corrida ${{ github.run_number }}" || true
+          git remote add origin "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git"
+          git push -f origin capturas-${{ github.run_number }} || true
       - uses: actions/upload-artifact@v4
         if: always()
         with:
